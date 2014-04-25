@@ -13,7 +13,7 @@ Full description of the data can be found at [UCI Machine Learning Repository](h
 * Extract and set your working directory to `UCI HAR Dataset` in order to run the script.
 
 * The script reads the raw training and the test sets (`X, y and subject`) from `test`and `train` folders and returns one data set.
-* It extracts only the measurements on the mean and standard deviation for each measurement. 
-* Then it labels the data set with descriptive activity names (`WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING`). See `CodeBook.md` 
+* It extracts only the measurements on the mean and standard deviation for each measurement. Raw data sets contain more variables (See `[CodeBook.md`](https://github.com/anedeljkovic/GettingCleaningData/blob/master/CodeBook.md))
+* Then it labels the data set with descriptive activity names (`WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING`). (See `[CodeBook.md`](https://github.com/anedeljkovic/GettingCleaningData/blob/master/CodeBook.md)) 
 * Finaly, it creates a tidy data set with the average of each variable for each activity and each subject. 
 * Resulting data set is named `tidy_data.txt` and it is saved in `UCI HAR Dataset` folder.
