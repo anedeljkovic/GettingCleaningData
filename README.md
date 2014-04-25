@@ -1,4 +1,4 @@
 Tidy Data
 ===================
 
- # The script
+ ## The script `run_analysis.R`
