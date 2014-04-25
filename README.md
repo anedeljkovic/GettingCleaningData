@@ -9,7 +9,7 @@ Full description of the data can be found at [UCI Machine Learning Repository](h
 ## run_analysis.R
 
 * Download [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
-..* Downloaded zip.file contains folder `UCI HAR Dataset`.
+	* Downloaded zip.file contains folder `UCI HAR Dataset`.
 * Extract and set your working directory to `UCI HAR Dataset` in order to run the script.
 
 * The script reads the raw training and the test sets (`X, y and subject`) from `test`and `train` folders and returns one data set.
