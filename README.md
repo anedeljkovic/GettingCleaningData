@@ -1,4 +1,4 @@
-GettingCleaningData
+Tidy Data
 ===================
 
-Repo for Coursera Getting and Cleaning Data Project course
+ # The script
